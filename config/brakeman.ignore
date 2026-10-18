@@ -1,0 +1,13 @@
+{
+  "ignored_warnings": [
+    {
+      "warning_type": "File Access",
+      "fingerprint": "ac3b3e5fc6ddc88819e19bc1c275942d38a351426390444ae73842d43890a4d1",
+      "check_name": "SendFile",
+      "message": "Model attribute used in file name",
+      "file": "app/controllers/templates_controller.rb",
+      "note": "TemplateRegistry.path only returns paths for the fixed list of template IDs and nil for any other ID."
+    }
+  ],
+  "brakeman_version": "8.1.0"
+}
