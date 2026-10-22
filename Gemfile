@@ -11,7 +11,7 @@ gem "tzinfo-data", platforms: %i[ windows jruby ]
 gem "bootsnap", require: false
 
 # Generate PDFs from Typst templates [https://oicana.com]
-gem "oicana", "0.10.0.rc.1"
+gem "oicana", "0.10.0"
 
 # Serve the OpenAPI documentation with Swagger UI [https://github.com/rswag/rswag]
 gem "rswag-api", "~> 2.17"
